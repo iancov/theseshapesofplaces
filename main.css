@@ -42,3 +42,7 @@ a:hover {
 a:visited {
     color: blue;
 }
+
+.details {
+    padding-bottom: 20px;
+}
