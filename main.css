@@ -1,0 +1,44 @@
+img {
+    max-width:100%;
+}
+
+body {
+    padding-left: 20px;
+    padding-right: 1000px;
+}
+
+@font-face {
+    font-family: Redaction20;
+    src: url(Redaction20.otf);
+}
+
+@font-face {
+    font-family: Redaction20Italic;
+    src: url(Redaction20Italic.otf);
+}
+
+.h1 {
+    font-family: Redaction20;
+    color: blue;
+    font-size: 2.5rem;
+    line-height: 0;
+}
+
+.p1 {
+    font-family: Redaction20;
+    color: blue;
+    text-align: justify;
+}
+
+.p2 {
+    font-family: Redaction20Italic;
+    color: blue;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
