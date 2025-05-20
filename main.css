@@ -9,6 +9,11 @@ body {
     padding-top: 15px;
     max-width: 800px;
     margin: 0;
+
+    background-image: url(Sacha_Sunbeam_Ratio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 @font-face {
@@ -33,11 +38,20 @@ body {
     font-family: Redaction20;
     color: blue;
     text-align: justify;
+    margin: 0;
 }
 
 .p2 {
     font-family: Redaction20Italic;
     color: blue;
+    margin: 0;
+}
+
+.audio {
+    min-width: 500px;
+    max-height: 20px;
+    margin: 10px;
+    background-color: white;
 }
 
 a:hover {
