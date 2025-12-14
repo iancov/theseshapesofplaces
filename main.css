@@ -1,71 +1,63 @@
-img {
-    max-width:100%;
+* {
+    box-sizing: border-box;
 }
 
 body {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    padding-top: 15px;
-    max-width: 800px;
-    margin: 0;
-
-    background-image: url(Sacha_Sunbeam_Ratio.png);
+    background-image: url(parquet4.jpeg);
+    background-repeat:repeat-y;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 @font-face {
-    font-family: Redaction20;
-    src: url(Redaction20.otf);
+    font-family: fortalesia;
+    src: url(fortalesia.otf);
 }
 
-@font-face {
-    font-family: Redaction20Italic;
-    src: url(Redaction20Italic.otf);
+.script {
+    font-family: fortalesia;
+    font-size: 12vw;
+    line-height: 0em;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(255,255,255,0.9) 0px 0px 20px; 
 }
 
-.h1 {
-    font-family: Redaction20;
-    color: blue;
-    font-size: 2.5rem;
-    padding: 0;
-    margin: 0;
+.smalltext {
+    padding-left: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(255,255,255,0.9) 0px 0px 20px; 
 }
 
-.p1 {
-    font-family: Redaction20;
-    color: blue;
-    text-align: justify;
-    margin: 0;
+a:link {
+    color: rgb(255, 255, 255);
 }
 
-.p2 {
-    font-family: Redaction20Italic;
-    color: blue;
-    margin: 0;
+a:visited{
+    color: rgb(255, 255, 255);
 }
 
-.audio {
-    min-width: 500px;
-    max-height: 20px;
-    margin: 10px;
-    background-color: white;
+a:hover{
+    color: rgb(255, 255, 255);
 }
 
-.indent {
-    padding-left: 20px;
+a:active{
+    color: rgb(255, 255, 255);
 }
 
-a:hover {
-    color: blue;
+.player {
+    width: 100%;
+    height: auto;
+    padding-right: 50px;
+
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-a:visited {
-    color: blue;
+@media screen and (max-width:900px) {
+
+.player {
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 0;
 }
 
-.details {
-    padding-bottom: 20px;
 }
